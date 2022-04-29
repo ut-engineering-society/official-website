@@ -1,32 +1,182 @@
+/* 全体共通 */
 body {
-    margin: 0;
-    padding: 0;
-    background: #eee;
-    font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Hiragino Sans, "Noto Sans JP", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #eee;
+  font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Hiragino Sans, "Noto Sans JP", sans-serif;
 }
 
 .h1 {
-    color: #222;
+  color: #222;
 }
 
 .h2 {
-    color: #222;
+  color: #222;
 }
 
 .h3 {
-    color: #222;
+  color: #222;
 }
 
 .p {
-    color: #333;
+  color: #333;
 }
 
 .main_color {
-    background-color: #196aab; /* 東大の青 */
+  background-color: #196aab; /* 東大の青 */
 }
 
 .accent_color {
-    background-color: #f6b506; /* 東大の黄色 */
+  background-color: #f6b506; /* 東大の黄色 */
 }
 
 /* font-sizeは後日考える */
+
+
+/* header */
+/* スマホ用 & 共通用 */
+header {
+  background-color: #fff;
+  height: 64px;
+  box-shadow: 0px 10px 10px 0px rgba(100,100,100,0.1);
+  display: flex;
+  position: relative;
+}
+
+.hamburger_btn {
+  width: 70px;
+  height: 64px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.hamburger_btn:hover {
+  background-color: #ddd;
+}
+
+.hamburger_btn span {
+  position: absolute;
+  display: block;
+  left: 20px;
+  width: 30px;
+  height: 2px;
+  background-color: #333;
+  border-radius: 4px;
+}
+
+.hamburger_btn span:nth-child(1) {
+  top: 20px;
+}
+
+.hamburger_btn span:nth-child(2) {
+  top: 32px;
+}
+
+.hamburger_btn span:nth-child(3) {
+  top: 44px;
+}
+
+.logo_name {
+  display: block;
+  height: inherit;
+}
+
+.logo_name img{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: auto;
+  height: inherit;
+}
+
+nav ul li :hover{
+  color: #99f;
+}
+nav ul li a {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+nav ul li {
+  text-align: center;
+  display: block;
+  border-bottom: #222 solid 1px;
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+}
+
+nav ul {
+  position: absolute;
+  transform: translateY(100%);
+  right: 0;
+  top: 64px;
+  height: calc(100vh - 64px);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+}
+
+.nav_active {
+  transform: translateY(0%);
+  transition: all 0.5s;
+
+}
+
+li {
+  list-style: none;
+}
+
+
+@media screen and (min-width: 600px) {
+  header {
+    display: flex;
+    height: 96px;
+  }
+  .hamburger_btn {
+    display: none;
+  }
+  .logo_name img{
+    position: initial;
+    margin-left: 50px;
+    left: initial;
+    transform: initial;
+  }
+  nav {
+    display: initial;
+    margin: auto 0 auto auto;
+  }
+  nav ul {
+    position: initial;
+    right: initial;
+    height: initial;
+    background-color: initial;
+    flex-direction: initial;
+    justify-content: space-between;
+    width: 350px;
+    top: initial;
+    transform: translateY(0%);
+
+    margin: auto 30px;
+    padding: 0;
+    color: #337;
+    font-size: 20px;
+  }
+  nav ul li {
+    padding: 0;
+    border: none;
+    width:fit-content;
+    margin: 0;
+  }
+  nav ul li a {
+    width: 100%;
+  }
+}
+
+
+
+/* footer */
