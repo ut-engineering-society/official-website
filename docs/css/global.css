@@ -1,4 +1,32 @@
 body {
     margin: 0;
     padding: 0;
+    background: #eee;
+    font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Hiragino Sans, "Noto Sans JP", sans-serif;
 }
+
+.h1 {
+    color: #222;
+}
+
+.h2 {
+    color: #222;
+}
+
+.h3 {
+    color: #222;
+}
+
+.p {
+    color: #333;
+}
+
+.main_color {
+    background-color: #196aab; /* 東大の青 */
+}
+
+.accent_color {
+    background-color: #f6b506; /* 東大の黄色 */
+}
+
+/* font-sizeは後日考える */
