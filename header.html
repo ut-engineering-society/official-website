@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>header</title>
-    <link rel="stylesheet" href="./docs/css/global.css">
+  <meta charset="UTF-8">
+  <title>header</title>
+  <link rel="stylesheet" href="./docs/css/global.css">
 </head>
 <body>
-    <header>
-
-    </header>
+  <!-- ファイルごとに構造が異なるため、相対パスのリンクに注意！ -->
+  <header>
+    <div class="hamburger_btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <a href="../" class="logo_name">
+      <img src="../images/プログラマーのイラスト.png" alt="Logo Image">
+    </a>
+    <nav>
+      <ul class="nav_links">
+        <li><a href="../">HOME</a></li>
+        <li><a href="../activity/">活動内容</a></li>
+        <li><a href="../contact/">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <script src="../js/header.js"></script>
+  </header>
 </body>
 </html>
