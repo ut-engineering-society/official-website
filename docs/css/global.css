@@ -6,20 +6,24 @@ body {
   font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Hiragino Sans, "Noto Sans JP", sans-serif;
 }
 
-.h1 {
+h1 {
   color: #222;
 }
 
-.h2 {
+h2 {
   color: #222;
 }
 
-.h3 {
+h3 {
   color: #222;
 }
 
-.p {
+p {
   color: #333;
+}
+
+b {
+  font-weight: bold;
 }
 
 .main_color {
@@ -48,6 +52,7 @@ header {
   height: 64px;
   cursor: pointer;
   padding: 0;
+  position: fixed;
 }
 
 .hamburger_btn:hover {
@@ -124,6 +129,8 @@ nav ul {
 .nav_active {
   transform: translateY(0%);
   transition: all 0.5s;
+  z-index: 1;
+  position: fixed;
 }
 
 li {
@@ -135,6 +142,7 @@ li {
   header {
     display: flex;
     height: 96px;
+    position: initial;
   }
   .hamburger_btn {
     display: none;
@@ -224,6 +232,7 @@ footer {
 
 .copyright {
   text-align: center;
+  color: #eee;
 }
 
 

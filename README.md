@@ -50,6 +50,9 @@ https://form.run/media/contents/form-creation-tools/google-form-embedding/
 * global関連（ロゴ等）以外はページごとにフォルダ分けする
 
 
+## js
+JavaScriptのファイルは使うページごとに分けてこのフォルダに入れる
+
 ## その他
 company, events, mediaは今後作る可能性を残し、docsの外へ
 
@@ -82,9 +85,13 @@ company, events, mediaは今後作る可能性を残し、docsの外へ
 ## 技術面
 * [GitHub Actions で Web サイトをビルドして GitHub Pages へ公開する](https://maku.blog/p/5q3eq2c/)
 * [HTMLで共通部分をインクルードして使い回す方法は？](https://qumeru.com/magazine/7)
+* [【コピペOK】CSSだけで実装できるおしゃれテーブルデザイン10つ](https://webliker.info/75964/)
 
 ## 見た目
 * [ut.code();](https://utcode.net/)
 * [KING](https://waav-bcking.com/)
 * [winc](https://www.winc.ne.jp/)
 
+
+## フリー素材
+* 「titleBackCode.png」：[pixabay プログラマ](https://pixabay.com/ja/illustrations/%e3%82%b3%e3%83%b3%e3%83%94%e3%83%a5%e3%83%bc%e3%82%bf%e3%83%bc-%e8%a8%88%e7%ae%97%e6%a9%9f%e3%82%b3%e3%83%bc%e3%83%89-1836330/)
