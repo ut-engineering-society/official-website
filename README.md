@@ -86,6 +86,8 @@ company, events, mediaは今後作る可能性を残し、docsの外へ
 * [GitHub Actions で Web サイトをビルドして GitHub Pages へ公開する](https://maku.blog/p/5q3eq2c/)
 * [HTMLで共通部分をインクルードして使い回す方法は？](https://qumeru.com/magazine/7)
 * [【コピペOK】CSSだけで実装できるおしゃれテーブルデザイン10つ](https://webliker.info/75964/)
+* [8種類のSNSフォローボタン・CSSカスタマイズ18選 | カゲサイ](https://kagesai.net/sns-follow-button-design/)
+* [【2021】今さら聞けないFont Awesomeの使い方やカスタマイズ方法](https://webdesign-trends.net/entry/14327)
 
 ## 見た目
 * [ut.code();](https://utcode.net/)
