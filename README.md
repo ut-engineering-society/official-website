@@ -97,3 +97,4 @@ company, events, mediaは今後作る可能性を残し、docsの外へ
 
 ## フリー素材
 * 「titleBackCode.png」：[pixabay プログラマ](https://pixabay.com/ja/illustrations/%e3%82%b3%e3%83%b3%e3%83%94%e3%83%a5%e3%83%bc%e3%82%bf%e3%83%bc-%e8%a8%88%e7%ae%97%e6%a9%9f%e3%82%b3%e3%83%bc%e3%83%89-1836330/)
+* [Font Awesome](https://fontawesome.com)
