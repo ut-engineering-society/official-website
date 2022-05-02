@@ -16,6 +16,12 @@
   margin-top: 50px;
   margin-left: 20px;
   text-shadow:1px 1px 0 #196aab,-1px 1px 0 #196aab,1px -1px 0 #196aab,-1px -1px 0 #196aab;
+  line-height: 50px;
+  height: 150px;
+}
+
+#community_name span {
+  white-space: nowrap;
 }
 
 .explain_block {
