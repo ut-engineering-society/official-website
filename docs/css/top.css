@@ -118,6 +118,12 @@ h2 {
   text-align: center;
 }
 
+#logo_introduce_img {
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
 @media screen and (min-width: 600px) {
   .link_btn{
     width: 50%;
