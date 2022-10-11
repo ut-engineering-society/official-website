@@ -1,0 +1,31 @@
+.profile {
+  background-color: white;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+  margin: 10px;
+  padding: 10px;
+}
+
+.profilePhoto {
+  border-radius: 30px;
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 600px) {
+  .profile {
+    margin: 50pt;
+    display: flex;
+    margin: 30px;
+  }
+
+  .profilePhoto {
+    border-radius: 30px;
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+  }
+}
